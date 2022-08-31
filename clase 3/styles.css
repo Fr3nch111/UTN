@@ -1,0 +1,26 @@
+
+
+h1{
+    color: red;
+}
+section{
+    background-color: aquamarine;
+}
+.ContenidoVerde{
+    background-color: green;
+
+}
+.contenidoRojo{
+    background-color: red;
+
+}
+.amarilla{
+    color:rgb(72, 77, 6);
+}
+p{
+    color:rgb(60, 62, 175) !important;
+}
+p{
+    color:rgb(35, 90, 44);
+}
+
