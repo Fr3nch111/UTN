@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  box-sizing: 10px;
+}
+
+body {
+  background-color: rgb(1, 36, 24);
+}
+
+.encabezado {
+  background-image: url("../Imagenes/galaxy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: rgb(153, 20, 20);
+}
+.encabezado h1 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.listas {
+  list-style: decimal;
+  
+}
+.div{
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+  font: 1.4rem;
+  padding: 2rem;
+
+}
+.rojo{
+  background-color: yellow;
+}
+.square{
+  background-color: green;
+  height: 150px;
+  width: 150px;
+  padding: 2rem;
+  border: solid 5px black;
+  margin: 2rem;
+overflow: auto;
+
+
+margin: 1rem 2rem 3rem 4rem;
+position: relative;
+top: 40px;
+left: 40px;
+
+
+}
+.contenido{
+  background-color: aqua;
+  width: 400px;
+  height: 500px;
+
+}
+body{
+  overflow: auto;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+.contenido_img{
+  background: red;
+  padding: 2rem;
+  width: 70%;
+  height: 30%;
+  float: left;
+}
+.contenido_imagen{
+  width: 50%;
+  background-color: aquamarine;
+box-shadow: 5px 15px rgb(45, 45, 45);
+border-radius: 15px;
+
+}
+.contenido_imagen img{
+  width: 100%;
+}
+.sugerencias{
+  background-color: aliceblue;
+height: 100vh;
+float: right;
+width: 30%;
+
+}
+.pie{
+  background-color: beige;
+}
